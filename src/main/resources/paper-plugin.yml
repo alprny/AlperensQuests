@@ -1,0 +1,13 @@
+name: AlperensQuests
+version: '0.1.0-ALPHA'
+main: io.github.alprny.quests.Quests
+api-version: '1.21'
+load: STARTUP
+authors: [ alprny ]
+commands:
+  gorev:
+    description: Görev komutu (Türkçe)
+    usage: /görev
+  quest:
+    description: Quest command (English)
+    usage: /quest
